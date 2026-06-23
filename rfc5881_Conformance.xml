@@ -1,0 +1,42 @@
+<section numbered="true" toc="default">
+   <name>[Organization Name]</name>
+   <dl newline="true" spacing="normal" indent="3">
+      <dt>Organization:</dt>
+        <dd>[Organization Name]</dd>
+      <dt>Implementation Name:</dt>
+        <dd>[Implementation Name]</dd>
+      <dt>Description:</dt>
+        <dd>[Description]</dd>
+      <dt>Maturity:</dt>
+        <dd>[Maturity]</dd>
+      <dt>Coverage:</dt><dd></dd>
+      </dl>
+        <ul bare="false" empty="false" indent="3">
+          <li>Section 2: Multiple Session Support - [Implemented/Not Implemented]</li>
+          <li>Section 2: IPv4 and IPv6 supported - [Implemented/Not Implemented]</li>
+          <li>Section 2: Echo Function - [Implemented/Not Implemented]</li>
+          <li>Section 3: Session association with a received Your Discriminator set to zero - [Implemented/Not Implemented]</li>
+          <li>Section 4: UDP destination port 3784 (Control Packets) - [Implemented/Not Implemented]</li>
+          <li>Section 4: UDP source port in the 49152 through 65535 range - [Implemented/Not Implemented]</li>
+          <li>Section 4: Unique UDP source ports - [Implemented/Not Implemented]</li>
+          <li>Section 4: UDP destination port 3785 (Echo Packets) - [Implemented/Not Implemented]</li>
+          <li>Section 5: Generalized TTL Security Mechanism (authentication not in use) - [Implemented/Not Implemented]</li>
+          <li>Section 5: Generalized TTL Security Mechanism (authentication in use) - [Implemented/Not Implemented]</li>
+          <li>Section 6: Enforce one-hop path - [Implemented/Not Implemented]</li>
+          <li>Section 6: Multiaccess Networks - [Implemented/Not Implemented]</li>
+          <li>Section 6: Point-to-Point Links - [Implemented/Not Implemented]</li>
+          <li>Section 7: Tunnels - [Implemented/Not Implemented]</li>
+       </ul>
+   <dl newline="true" spacing="normal" indent="3">
+      <dt>Licensing:</dt>
+        <dd>[Licensing]</dd>
+      <dt>Implementation Experience:</dt>
+        <dd>[Implementation Experience]</dd>
+      <dt>Comments:</dt>
+        <dd>[Comments]</dd>
+      <dt>Contact Information:</dt>
+        <dd>[Contact Information]</dd>
+      <dt>Date:</dt>
+        <dd>[Date]</dd>
+   </dl>
+</section>
