@@ -339,6 +339,48 @@
            <dd>[Date]</dd>      
       </dl>
    </section>
+   <section numbered="true" toc="default">
+      <name>HPE</name>
+      <dl newline="true" spacing="normal" indent="3">
+         <dt>Organization:</dt>
+           <dd>HPE</dd>
+         <dt>Implementation Name:</dt>
+           <dd>Junos</dd>
+         <dt>Description:</dt>
+           <dd>Junos OS BFD implementation</dd>
+         <dt>Maturity:</dt>
+           <dd>Mature</dd>
+         <dt>Coverage:</dt><dd></dd>
+         </dl>
+           <ul bare="false" empty="false" indent="3">
+             <li>Section 2: Multiple Session Support - Implemented</li>
+             <li>Section 2: IPv4 and IPv6 supported - Implemented</li>
+             <li>Section 2: Echo Function - Implemented</li>
+             <li>Section 3: Session association with a received Your Discriminator set to zero - Implemented</li>
+             <li>Section 4: UDP destination port 3784 (Control Packets) - Implemented</li>
+             <li>Section 4: UDP source port in the 49152 through 65535 range - Implemented</li>
+             <li>Section 4: Unique UDP source ports - Implemented</li>
+             <li>Section 4: UDP destination port 3785 (Echo Packets) - Implemented</li>
+             <li>Section 5: Generalized TTL Security Mechanism (authentication not in use) - Implemented</li>
+             <li>Section 5: Generalized TTL Security Mechanism (authentication in use) - Implemented</li>
+             <li>Section 6: Enforce one-hop path - Implemented</li>
+             <li>Section 6: Multiaccess Networks - Implemented</li>
+             <li>Section 6: Point-to-Point Links - Implemented</li>
+             <li>Section 7: Tunnels - Implemented</li>
+          </ul>
+      <dl newline="true" spacing="normal" indent="3">
+         <dt>Licensing:</dt>
+           <dd>Proprietary</dd>
+         <dt>Implementation Experience:</dt>
+           <dd>N/A</dd>
+         <dt>Comments:</dt>
+           <dd>N/A</dd>
+         <dt>Contact Information:</dt>
+           <dd>Santhi Raju Challapalli, Email: santhi-raju.challapalli@hpe.com</dd>
+         <dt>Date:</dt>
+           <dd>4 August, 2026</dd>
+      </dl>
+   </section>
 </section>
 
 <section numbered="true" toc="default" removeInRFC="true">
