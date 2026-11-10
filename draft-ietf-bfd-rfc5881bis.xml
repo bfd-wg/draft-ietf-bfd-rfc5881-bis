@@ -340,6 +340,48 @@
       </dl>
    </section>
    <section numbered="true" toc="default">
+      <name>Cisco Systems, Inc.</name>
+      <dl newline="true" spacing="normal" indent="3">
+         <dt>Organization:</dt>
+           <dd>Cisco Systems, Inc.</dd>
+         <dt>Implementation Name:</dt>
+           <dd>IOS XR Version 4.0, IOS XE Version 12.0(31)S2, IOS NX Version 5.0(2)</dd>
+         <dt>Description:</dt>
+           <dd>Details about Cisco Implementation of RFC 5881.</dd>
+         <dt>Maturity:</dt>
+           <dd>Widely used in general terms.</dd>
+         <dt>Coverage:</dt><dd></dd>
+         </dl>
+           <ul bare="false" empty="false" indent="3">
+             <li>Section 2: Multiple Session Support - Implemented</li>
+             <li>Section 2: IPv4 and IPv6 supported - Implemented</li>
+             <li>Section 2: Echo Function - Implemented</li>
+             <li>Section 3: Session association with a received Your Discriminator set to zero - Implemented</li>
+             <li>Section 4: UDP destination port 3784 (Control Packets) - Implemented</li>
+             <li>Section 4: UDP source port in the 49152 through 65535 range - Implemented</li>
+             <li>Section 4: Unique UDP source ports - Implemented</li>
+             <li>Section 4: UDP destination port 3785 (Echo Packets) - Implemented</li>
+             <li>Section 5: Generalized TTL Security Mechanism (authentication not in use) - Implemented</li>
+             <li>Section 5: Generalized TTL Security Mechanism (authentication in use) - Implemented</li>
+             <li>Section 6: Enforce one-hop path - Implemented</li>
+             <li>Section 6: Multiaccess Networks - Implemented</li>
+             <li>Section 6: Point-to-Point Links - Implemented</li>
+             <li>Section 7: Tunnels - Implemented</li>
+           </ul>
+      <dl newline="true" spacing="normal" indent="3">
+         <dt>Licensing:</dt>
+           <dd>Proprietary</dd>
+         <dt>Implementation Experience:</dt>
+           <dd>None</dd>
+         <dt>Comments:</dt>
+           <dd>N/A</dd>
+         <dt>Contact Information:</dt>
+           <dd>Rajaguru Veluchamy, Email: rvelucha@cisco.com</dd>
+         <dt>Date:</dt>
+           <dd>18 August, 2026</dd>
+      </dl>
+   </section>
+   <section numbered="true" toc="default">
       <name>HPE</name>
       <dl newline="true" spacing="normal" indent="3">
          <dt>Organization:</dt>
@@ -379,6 +421,48 @@
            <dd>Santhi Raju Challapalli, Email: santhi-raju.challapalli@hpe.com</dd>
          <dt>Date:</dt>
            <dd>4 August, 2026</dd>
+      </dl>
+   </section>
+   <section numbered="true" toc="default">
+      <name>ZTE Corporation</name>
+      <dl newline="true" spacing="normal" indent="3">
+         <dt>Organization:</dt>
+           <dd>ZTE Corporation</dd>
+         <dt>Implementation Name:</dt>
+           <dd>ZXROSNGV15.10.30</dd>
+         <dt>Description:</dt>
+           <dd>Details about ZTE Implementation of RFC 5881.</dd>
+         <dt>Maturity:</dt>
+           <dd>Widely used in general terms.</dd>
+         <dt>Coverage:</dt><dd></dd>
+         </dl>
+           <ul bare="false" empty="false" indent="3">
+             <li>Section 2: Multiple Session Support - Implemented</li>
+             <li>Section 2: IPv4 and IPv6 supported - Implemented</li>
+             <li>Section 2: Echo Function - Not Implemented (only Unaffiliated BFD Echo is implemented)</li>
+             <li>Section 3: Session association with a received Your Discriminator set to zero - Implemented</li>
+             <li>Section 4: UDP destination port 3784 (Control Packets) - Implemented</li>
+             <li>Section 4: UDP source port in the 49152 through 65535 range - Implemented</li>
+             <li>Section 4: Unique UDP source ports - Not Implemented</li>
+             <li>Section 4: UDP destination port 3785 (Echo Packets) - Implemented (only for Unaffiliated BFD Echo)</li>
+             <li>Section 5: Generalized TTL Security Mechanism (authentication not in use) - Not Implemented</li>
+             <li>Section 5: Generalized TTL Security Mechanism (authentication in use) - Not Implemented</li>
+             <li>Section 6: Enforce one-hop path - Implemented</li>
+             <li>Section 6: Multiaccess Networks - Implemented</li>
+             <li>Section 6: Point-to-Point Links - Not Implemented</li>
+             <li>Section 7: Tunnels - Implemented</li>
+           </ul>
+      <dl newline="true" spacing="normal" indent="3">
+         <dt>Licensing:</dt>
+           <dd>Proprietary</dd>
+         <dt>Implementation Experience:</dt>
+           <dd>N/A</dd>
+         <dt>Comments:</dt>
+           <dd>N/A</dd>
+         <dt>Contact Information:</dt>
+           <dd>Zhao Yanhua, Email: zhao.yanhua3@zte.com.cn</dd>
+         <dt>Date:</dt>
+           <dd>31 August, 2026</dd>
       </dl>
    </section>
 </section>
