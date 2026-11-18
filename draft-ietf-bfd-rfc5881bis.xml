@@ -242,7 +242,47 @@
       <name>IANA Considerations</name>
       <t>
    Ports 3784 and 3785 were assigned by IANA for use with the BFD
-   Control and BFD Echo protocols, respectively.</t>
+   Control and BFD Echo protocols, respectively.  This document
+   obsoletes <xref target="RFC5881" format="default"/>, which is
+   referenced by those port assignments and by the IANA-BFD-TC-STD-MIB
+   module <xref target="RFC7330" format="default"/>.</t>
+      <section anchor="sect-8.1" numbered="true" toc="default">
+        <name>New IANA Actions</name>
+        <t>
+   IANA is requested to:</t>
+        <ul>
+          <li>Replace the reference to RFC 5881 with a reference to this
+          document for the entries listed in
+          <xref target="tab-iana-ports" format="default"/> in the
+          "Service Name and Transport Protocol Port Number Registry"
+          <xref target="RFC6335" format="default"/>
+          (<eref target="https://www.iana.org/assignments/service-names-port-numbers"/>).</li>
+          <li>Set the Assignee to the IESG (iesg@ietf.org) and the
+          Contact to the IETF Chair (chair@ietf.org) for the same
+          entries, as specified in Section 8.1.1 of
+          <xref target="RFC6335" format="default"/> for assignments made
+          through the IETF document stream.  These entries do not
+          currently list an Assignee or a Contact.</li>
+          <li>Replace every reference to RFC 5881 with a reference to
+          this document in the IANA-BFD-TC-STD-MIB module
+          (<eref target="https://www.iana.org/assignments/ianabfdtcstd-mib"/>).</li>
+        </ul>
+        <table anchor="tab-iana-ports" align="center">
+          <name>Port Registry Entries to Be Updated</name>
+          <thead>
+            <tr><th align="left">Service Name</th><th align="left">Port Number</th><th align="left">Transport Protocol</th><th align="left">Description</th></tr>
+          </thead>
+          <tbody>
+            <tr><td align="left">bfd-control</td><td align="left">3784</td><td align="left">tcp</td><td align="left">BFD Control Protocol</td></tr>
+            <tr><td align="left">bfd-control</td><td align="left">3784</td><td align="left">udp</td><td align="left">BFD Control Protocol</td></tr>
+            <tr><td align="left">bfd-echo</td><td align="left">3785</td><td align="left">tcp</td><td align="left">BFD Echo Protocol</td></tr>
+            <tr><td align="left">bfd-echo</td><td align="left">3785</td><td align="left">udp</td><td align="left">BFD Echo Protocol</td></tr>
+          </tbody>
+        </table>
+        <t>
+   References to other documents are not changed.  No other IANA
+   actions are requested.</t>
+      </section>
     </section>
     <section anchor="sect-9" numbered="true" toc="default">
       <name>Security Considerations</name>
@@ -283,6 +323,8 @@
         <xi:include href="https://bib.ietf.org/public/rfc/bibxml-rfcsubseries/reference.BCP.38.xml"/>
         <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.5348.xml"/>
         <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.5881.xml"/>
+        <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.6335.xml"/>
+        <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.7330.xml"/>
         <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.7942.xml"/>
 
       </references>
@@ -449,7 +491,7 @@
       <li>Added an implementation status section.</li>
       <li>Incorporated the Verified Erratum 2293 (https://errata.rfc-editor.org/eid2293/).</li>
       </ul>
-    </section>
+  </section>
     <section numbered="true" toc="default">
       <name>Version -02</name>
       <t>
@@ -457,9 +499,10 @@
       </t>
       <ul>
       <li>Added implementation reports from cisco, HPE, and ZTE.</li>
-      </ul> 
-    </section>     
-</section>    
+      <li>Updated the IANA Considerations section to request that IANA registry and MIB module references to RFC 5881 point to this document.</li>
+      </ul>
+   </section>
+</section>
 
   </back>
 </rfc>
